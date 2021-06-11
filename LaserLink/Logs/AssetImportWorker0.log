@@ -15,11 +15,19 @@ C:/Users/00joh/Documents/GitHub/LaserLink-GMTK2021 - Copy/LaserLink
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 13420
 Successfully changed project path to: C:/Users/00joh/Documents/GitHub/LaserLink-GMTK2021 - Copy/LaserLink
 C:/Users/00joh/Documents/GitHub/LaserLink-GMTK2021 - Copy/LaserLink
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 78.35 ms, found 3 plugins.
+=======
+61678
+Successfully changed project path to: C:/GitNHub/LaserLink-GMTK2021/LaserLink
+C:/GitNHub/LaserLink-GMTK2021/LaserLink
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 83.52 ms, found 3 plugins.
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -33,6 +41,7 @@ Direct3D:
     Driver:   27.21.14.6663
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
+<<<<<<< HEAD
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
@@ -49,11 +58,30 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (931ms)
 		BeginReloadAssembly (44ms)
+=======
+Mono path[0] = 'C:/Folders/GameStuff/unityProjects/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Folders/GameStuff/unityProjects/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Folders/GameStuff/unityProjects/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Folders/GameStuff/unityProjects/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001709 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 84.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (57ms)
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (403ms)
 			LoadAssemblies (42ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -68,17 +96,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (86ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
+=======
+		EndReloadAssembly (448ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (205ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (84ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005219 seconds.
+=======
+Registered in 0.005293 seconds.
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\00joh\Documents\GitHub\LaserLink-GMTK2021 - Copy\LaserLink\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\00joh\Documents\GitHub\LaserLink-GMTK2021 - Copy\LaserLink\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 81.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -98,21 +147,50 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (49ms)
 			SetupLoadedEditorAssemblies (385ms)
+=======
+Refreshing native plugins compatible for Editor in 87.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1181ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (994ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (402ms)
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (82ms)
 				BeforeProcessingInitializeOnLoad (77ms)
 				ProcessInitializeOnLoadAttributes (213ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
+=======
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (224ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
 Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -122,6 +200,17 @@ System memory in use after: 167.0 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4833.
 Total: 2.450700 ms (FindLiveObjects: 0.275200 ms CreateObjectMapping: 0.204100 ms MarkObjects: 1.908100 ms  DeleteObjects: 0.062300 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.7 MB.
+System memory in use after: 166.9 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 4833.
+Total: 4.360500 ms (FindLiveObjects: 0.386800 ms CreateObjectMapping: 0.389000 ms MarkObjects: 3.462200 ms  DeleteObjects: 0.120500 ms)
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,6 +224,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Scenes/LaserMenu.unity
   artifactKey: Guid(31a38d48be3b9e243a303f7bd96a29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/LaserMenu.unity using Guid(31a38d48be3b9e243a303f7bd96a29f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cc99b0570be500d797afcf652dfd7e') in 0.010530 seconds 
@@ -150,4 +240,156 @@ Received Import Request.
   path: Assets/UI/Uxml/Surgery.uxml
   artifactKey: Guid(b42e6662056153d479daea546849bda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/UI/Uxml/Surgery.uxml using Guid(b42e6662056153d479daea546849bda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73982dfa9bc3451a0629c6d59e93c3ce') in 0.022407 seconds 
+=======
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f7acaf2c00c025e7ad9600c549cab27') in 0.878878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 188.903042 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc53423ac701f07087b1778448facf84') in 0.018904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 73.224070 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831fe7a327f215d89003acae2b925c0a') in 0.016015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.278633 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc471ff39d8f8ebeb8b45d52d795422b') in 0.015351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 190.634571 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3aac94482e8c8b81589ea3a1d92c7d') in 0.025272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.902356 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33083a2f2d2ea1fd7f27a8bb30d6bd9') in 0.015562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.495157 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f380a2071f684f64fdd85179bdb3f614') in 0.016846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.677601 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389d10ff1d842f41eabfedfe8cd93d10') in 0.016325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.655406 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15975b04719c2594e502e8510399b513') in 0.014733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.873294 seconds.
+  path: Assets/_Folder/LaserGuy.blend
+  artifactKey: Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/LaserGuy.blend using Guid(78b27fc7076461e41abe8fe8f2b57217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97df890d6eab104fb519719b2df9dc8c') in 0.014074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.858366 seconds.
+  path: Assets/_Folder/Models
+  artifactKey: Guid(73fffd5ee81e932478c311902128eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/Models using Guid(73fffd5ee81e932478c311902128eab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd330886fc1ae0dbbb87dbfa7d8a98b6b') in 0.005625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.814871 seconds.
+  path: Assets/_Folder/Models/LaserGuy
+  artifactKey: Guid(7a26ad6d80c009a46a434f913d65b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/Models/LaserGuy using Guid(7a26ad6d80c009a46a434f913d65b8bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687154d97991020669eaf9989f2a8651') in 0.001860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056825 seconds.
+  path: Assets/_Folder/Models/LaserGuy/LaserGuy.blend
+  artifactKey: Guid(0bc8d705d7756394ab42c07da27b3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/Models/LaserGuy/LaserGuy.blend using Guid(0bc8d705d7756394ab42c07da27b3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87ba3fd8e1792dd4328bba2fc0985a9') in 0.018713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.157365 seconds.
+  path: Assets/_Folder/Models/LaserGuy.blend1
+  artifactKey: Guid(209bf2fbf4d5e9d4fbbb16523e74c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Folder/Models/LaserGuy.blend1 using Guid(209bf2fbf4d5e9d4fbbb16523e74c433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e917c86c1b3ae3f672a9fa37af49e552') in 0.005255 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.140099 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\GitNHub\LaserLink-GMTK2021\LaserLink\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\GitNHub\LaserLink-GMTK2021\LaserLink\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1185ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1029ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (319ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (380ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4712 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.1 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 5257.
+Total: 3.621800 ms (FindLiveObjects: 0.331400 ms CreateObjectMapping: 0.265300 ms MarkObjects: 2.338400 ms  DeleteObjects: 0.685900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+>>>>>>> 3b4a2289048368f588d491c64f0e9e8508ef2fde
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
