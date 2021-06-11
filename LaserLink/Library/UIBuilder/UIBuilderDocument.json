@@ -15,22 +15,22 @@
                 "m_VisualTreeAssetBackup": {
                     "instanceID": 0
                 },
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI/Uxml/Surgery.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/_Folder/UI/Uxml/NewUXMLTemplate.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "b42e6662056153d479daea546849bda0",
+                    "guid": "633f09a53709a984b982465516cbae76",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
                     "instanceID": 0
                 },
                 "m_Settings": {
-                    "UxmlGuid": "b42e6662056153d479daea546849bda0",
-                    "UxmlPath": "Assets/UI/Uxml/Surgery.uxml",
+                    "UxmlGuid": "633f09a53709a984b982465516cbae76",
+                    "UxmlPath": "Assets/_Folder/UI/Uxml/NewUXMLTemplate.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
-                    "CanvasWidth": 350,
-                    "CanvasHeight": 450,
+                    "CanvasWidth": 581,
+                    "CanvasHeight": 389,
                     "MatchGameView": false,
                     "ZoomScale": 1.0,
                     "PanOffset": {

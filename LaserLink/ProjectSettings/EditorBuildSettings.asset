@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LaserMenu.unity
+    guid: 31a38d48be3b9e243a303f7bd96a29f3
+  - enabled: 1
+    path: Assets/Scenes/SurgeryScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: d822f20870a225e499bc9472122913c7
   m_configObjects: {}
