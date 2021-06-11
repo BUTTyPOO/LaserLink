@@ -3,13 +3,13 @@
     "UxmlPath": "Assets/UI/Uxml/Surgery.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 598,
-    "CanvasHeight": 483,
+    "CanvasWidth": 350,
+    "CanvasHeight": 450,
     "MatchGameView": false,
     "ZoomScale": 1.0,
     "PanOffset": {
-        "x": 149.33331298828126,
-        "y": 82.83334350585938
+        "x": NaN,
+        "y": NaN
     },
     "ColorModeBackgroundOpacity": 1.0,
     "ImageModeCanvasBackgroundOpacity": 1.0,
