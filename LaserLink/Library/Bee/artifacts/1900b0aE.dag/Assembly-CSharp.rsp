@@ -344,6 +344,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/_Folder/Scripts/Buttons_MainMenu.cs"
 "Assets/_Folder/Scripts/Buttons_SurgeryScene.cs"
+"Assets/_Folder/Scripts/Movement.cs"
 -langversion:8.0
 
 /deterministic
