@@ -9,8 +9,17 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 localpos = transform.localPosition;
-        localpos.z = localpos.z + 2f * Time.deltaTime;
-        transform.localPosition = localpos;
+        if (Input.GetKey (KeyCode.A)) {
+            transform.Translate (Vector3.left * 5f * Time.deltaTime); 
+        }
+        if (Input.GetKey (KeyCode.W)) {
+            transform.Translate (Vector3.forward * 5f * Time.deltaTime); 
+        }
+        if (Input.GetKey (KeyCode.S)) {
+            transform.Translate (Vector3.back * 5f * Time.deltaTime); 
+        }
+        if (Input.GetKey (KeyCode.D)) {
+            transform.Translate (Vector3.right * 5f * Time.deltaTime); 
+        }
     }
 }
