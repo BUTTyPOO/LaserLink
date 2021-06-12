@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SubjectScript : MonoBehaviour
 {
+    [SerializeField] public int lasersAllowed = 2;
+    [SerializeField] public int lasersPlaced = 0;
     // Start is called before the first frame update
     void Start()
     {

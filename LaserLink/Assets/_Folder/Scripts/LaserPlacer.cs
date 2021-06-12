@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using EasyButtons;
+using TMPro;
 
 public class LaserPlacer : MonoBehaviour
 {
+    public SubjectScript laserInfo;
     [SerializeField] bool enabled = true;
-
-
+    public TMP_Text tmp;
     [SerializeField] List<SerializedTransform> serializedTrans = new List<SerializedTransform>();
-
     [SerializeField] LayerMask layerMask;
     [SerializeField] Camera cam;
     [SerializeField] GameObject ghostPlacementIndicator;
@@ -22,6 +22,9 @@ public class LaserPlacer : MonoBehaviour
     void Start()
     {
         ghostLaserScript ??= ghostPlacementIndicator.GetComponentInChildren<LaserGhostIndicator>();
+        laserInfo = subject.GetComponent<SubjectScript>();
+        GameObject lasersText = GameObject.FindWithTag("LasersLeftText");
+        tmp = lasersText.GetComponent<TMP_Text>();
     }
 
     void Update()
@@ -49,7 +52,7 @@ public class LaserPlacer : MonoBehaviour
     void SpawnLaserAtGhostTransform()
     {
         if (ghostLaserScript.isBlocked == true) return;
-
+        if (laserInfo.lasersAllowed == laserInfo.lasersPlaced) return;
         Vector3 pos = ghostPlacementIndicator.transform.localPosition;
         Quaternion rot = ghostPlacementIndicator.transform.localRotation;
 
@@ -57,6 +60,7 @@ public class LaserPlacer : MonoBehaviour
         spawnedLaser.transform.parent = hitData.transform;
 
         serializedTrans.Add(new SerializedTransform(spawnedLaser.transform));
+        tmp.text = (laserInfo.lasersAllowed - (++laserInfo.lasersPlaced)).ToString();
     }
 
     [Button]
