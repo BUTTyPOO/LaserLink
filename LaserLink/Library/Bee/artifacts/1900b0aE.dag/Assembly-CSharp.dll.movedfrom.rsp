@@ -21,12 +21,6 @@ Library\Bee\artifacts\movedfrom\Unity.TextMeshPro.ref.dll_9557809654341403355.mo
 Library\Bee\artifacts\movedfrom\Unity.Timeline.Editor.ref.dll_953984715949700626.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Timeline.ref.dll_7069769579887910799.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VSCode.Editor.ref.dll_3902429132378491929.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Core.Editor.ref.dll_17134060296949054973.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Core.ref.dll_15518829177300997364.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Flow.Editor.ref.dll_7708282115428993342.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Flow.ref.dll_2192924542065166755.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.State.Editor.ref.dll_16156761413022531439.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.State.ref.dll_15643080368937755746.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualStudio.Editor.ref.dll_4221946230532187309.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEditor.UI.ref.dll_5519394401220875509.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.UI.ref.dll_648142665722821984.movedfrom
@@ -107,4 +101,3 @@ Library\Bee\artifacts\movedfrom\UnityEngine.VirtualTexturingModule.dll_109100623
 Library\Bee\artifacts\movedfrom\UnityEngine.VRModule.dll_6560504272243997590.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_9733885249252645746.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_10217078643965004020.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_11782564062807287741.movedfrom
