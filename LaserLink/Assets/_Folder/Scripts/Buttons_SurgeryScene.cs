@@ -9,4 +9,13 @@ public class Buttons_SurgeryScene : MonoBehaviour
     {
         SceneManager.LoadScene("Level1"); // later change to support more levels
     }
+
+    public void ClearButton()
+    {
+        GameObject Subject = GameObject.Find("Subject");
+        foreach(Transform child in Subject.transform)
+        {
+            Destroy(child.gameObject);
+        }
+    }
 }
