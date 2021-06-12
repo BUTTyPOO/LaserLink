@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Folder/Scenes/LaserMenu.unity
+    path: Assets/_Folder/Scenes/LaserMenu/LaserMenu.unity
     guid: 31a38d48be3b9e243a303f7bd96a29f3
   - enabled: 1
-    path: Assets/_Folder/Scenes/SurgeryScene.unity
+    path: Assets/_Folder/Scenes/SurgeryScene/SurgeryScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/_Folder/Scenes/Level1.unity
+    path: Assets/_Folder/Scenes/Level1/Level1.unity
     guid: d822f20870a225e499bc9472122913c7
   m_configObjects: {}

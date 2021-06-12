@@ -339,6 +339,11 @@
 "Assets/_Folder/Scripts/Buttons_SurgeryScene.cs"
 "Assets/_Folder/Scripts/LaserGhostIndicator.cs"
 "Assets/_Folder/Scripts/LaserPlacer.cs"
+<<<<<<< Updated upstream
+=======
+"Assets/_Folder/Scripts/SubjectScript.cs"
+"Assets/_Folder/Scripts/SurgeryCameraController.cs"
+>>>>>>> Stashed changes
 "Assets/_Folder/Scripts/UTIL/SerializedTransform.cs"
 -langversion:8.0
 
