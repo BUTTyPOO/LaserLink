@@ -83,9 +83,10 @@ public class LaserPlacer : MonoBehaviour
     [Button]
     public void DeleteAllLasers()
     {
+        laserParent = SubjectScript.instance.transform.GetChild(1);
         foreach(Transform tran in laserParent)
         {
-            Destroy(tran.gameObject);
+            Destroy(tran?.gameObject);
         }
         // laserCords.Clear();
     }
