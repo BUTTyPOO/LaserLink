@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using DG.Tweening;
 
 public class GameMan : MonoBehaviour
@@ -21,6 +22,13 @@ public class GameMan : MonoBehaviour
 
         instance = this;
         DontDestroyOnLoad(gameObject);
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        UI_PersistantCanvas.instance.UpdateStageCount();
     }
 
     public void DidIWin()
@@ -66,4 +74,5 @@ public class GameMan : MonoBehaviour
         applesHit += 1;
         FindObjectOfType<UI_ApplesLeftWidget>().UpdateTally();
     }
+
 }
