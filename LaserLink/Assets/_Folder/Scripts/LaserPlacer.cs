@@ -16,7 +16,6 @@ public class LaserPlacer : MonoBehaviour
     [SerializeField] GameObject ghostPlacementIndicator;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] GameObject subject;    // the object we are placing lasers on
-    [SerializeField] SubjectScript laserInfo;
 
     LaserGhostIndicator ghostLaserScript;
     RaycastHit hitData;
@@ -24,14 +23,13 @@ public class LaserPlacer : MonoBehaviour
     void Start()
     {
         ghostLaserScript ??= ghostPlacementIndicator.GetComponentInChildren<LaserGhostIndicator>();
-        laserInfo = subject.GetComponent<SubjectScript>();
         GameObject lasersText = GameObject.FindWithTag("LasersLeftText");
         tmp = lasersText.GetComponent<TMP_Text>();
     }
 
     void Update()
     {
-        print(laserInfo.lasersPlaced);
+        print(SubjectScript.instance.lasersPlaced);
         if (!enabled)
             return;
 
@@ -64,14 +62,14 @@ public class LaserPlacer : MonoBehaviour
             if(hitInfo.collider.tag == "LaserPrefab")
             {
                 Destroy(hitInfo.collider.transform.parent.gameObject);
-                tmp.text = (laserInfo.lasersAllowed - (--laserInfo.lasersPlaced)).ToString();
+                tmp.text = (SubjectScript.instance.lasersAllowed - (--SubjectScript.instance.lasersPlaced)).ToString();
             }
         }
     }
     void SpawnLaserAtGhostTransform()
     {
         if (ghostLaserScript.isBlocked == true) return;
-        if (laserInfo.lasersAllowed <= laserInfo.lasersPlaced) return;
+        if (SubjectScript.instance.lasersAllowed <= SubjectScript.instance.lasersPlaced) return;
         Vector3 pos = ghostPlacementIndicator.transform.localPosition;
         Quaternion rot = ghostPlacementIndicator.transform.localRotation;
 
@@ -79,7 +77,7 @@ public class LaserPlacer : MonoBehaviour
         spawnedLaser.transform.parent = hitData.transform;
 
         serializedTrans.Add(new SerializedTransform(spawnedLaser.transform));
-        tmp.text = (laserInfo.lasersAllowed - (++laserInfo.lasersPlaced)).ToString();
+        tmp.text = (SubjectScript.instance.lasersAllowed - (++SubjectScript.instance.lasersPlaced)).ToString();
     }
 
     [Button]
