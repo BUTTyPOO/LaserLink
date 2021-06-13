@@ -6,7 +6,6 @@ TagManager:
   tags:
   - LaserPrefab
   - LasersLeftText
-  - HowToPlayPanel
   layers:
   - Default
   - TransparentFX
