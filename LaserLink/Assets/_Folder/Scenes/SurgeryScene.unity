@@ -640,9 +640,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 137.2, y: 4.1}
-  m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 132.7426, y: -9.758}
+  m_SizeDelta: {x: 195.4853, y: 38.7133}
+  m_Pivot: {x: 0.5, y: 0.3645594}
 --- !u!114 &600312435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +726,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 7.9006643}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1699,8 +1699,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -613.7, y: 418.5}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -616.66187, y: 466.06662}
+  m_SizeDelta: {x: 201.1286, y: 29.684}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1030250621
 MonoBehaviour:
@@ -1785,7 +1785,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 19.187313}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2289,7 +2289,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 231.5, y: -173.5}
+  m_AnchoredPosition: {x: 231.5, y: -183.9}
   m_SizeDelta: {x: 101.39801, y: 21.28357}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1291481835
@@ -2420,7 +2420,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 301.5, y: 227}
+  m_AnchoredPosition: {x: 292.82, y: 227}
   m_SizeDelta: {x: 120.4, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297281664
@@ -2447,7 +2447,10 @@ MonoBehaviour:
 
     RMB - Rotate Cam
 
-    RMB - Delete Lasers'
+    RMB - Delete Lasers
+
+    SCROLLUP/DOWN
+    - Zoom'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -22,7 +22,7 @@ public class Buttons_SurgeryScene : MonoBehaviour
     void ClearButton()
     {
         GameObject.FindObjectOfType<LaserPlacer>().DeleteAllLasers();
-        laserInfo.lasersPlaced = 0;
-        tmp.text = laserInfo.lasersAllowed.ToString();
+        SubjectScript.instance.lasersPlaced = 0;
+        tmp.text = SubjectScript.instance.lasersAllowed.ToString();
     }
 }
