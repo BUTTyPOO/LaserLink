@@ -16,6 +16,8 @@ public class SurgeryCamController : MonoBehaviour
             RotateHorizontal();
             RotateVertical();
         }
+
+        if (Input.mouseScrollDelta.)
     }
 
     void RotateHorizontal()
