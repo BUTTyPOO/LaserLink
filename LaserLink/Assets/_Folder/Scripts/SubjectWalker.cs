@@ -15,7 +15,7 @@ public class SubjectWalker : MonoBehaviour  // makes subject walk
     {
         FindPoints();
         TeleportToPointA();
-        transform.DOMove(pointB.position, 10f);
+        transform.DOMove(pointB.position, 2f);
     }
 
     void FindPoints()
