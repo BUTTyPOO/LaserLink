@@ -3,7 +3,9 @@ guid: 12401478aafde534da90e678608fb85c
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - audSrc: {instanceID: 0}
+  - watermelonSFX: {fileID: 8300000, guid: 579d4629ce2ad9046a13ffe893a6270a, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -58,7 +58,11 @@ public class GameMan : MonoBehaviour
 
     public  void AppleSliced()  // called by apple when they get lasered
     {
-        print("Apple Sliced");
+        SoundManager.instance.PlayWatermelonSFX();
+        SoundManager.instance.PlayWatermelonSFX();
+        SoundManager.instance.PlayWatermelonSFX();
+        SoundManager.instance.PlayWatermelonSFX();
+        SoundManager.instance.PlayWatermelonSFX();
         applesHit += 1;
         FindObjectOfType<UI_ApplesLeftWidget>().UpdateTally();
     }

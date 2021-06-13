@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Target : MonoBehaviour, ILaserable
 {
+    public SoundManager soundMngr;
+
     public void Lasered()
     {
-        print("Lasered");
+        soundMngr.PlayWatermelonSFX();
         Destroy(gameObject);
     }
 }

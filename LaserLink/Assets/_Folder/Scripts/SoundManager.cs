@@ -35,7 +35,7 @@ public class SoundManager : MonoBehaviour
         PlaySound();
     }
 
-    [SerializeField] AudioClip watermelonSFX;
+    [SerializeField] public AudioClip watermelonSFX;
     public void PlayWatermelonSFX()
     {
         audSrc.PlayOneShot(watermelonSFX, 1.0f);
