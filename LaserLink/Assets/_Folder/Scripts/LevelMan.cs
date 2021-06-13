@@ -3,19 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelMan : MonoBehaviour
+public class LevelMan : MonoBehaviour // more like "level settings"
 {
     GameObject subject;
     [SerializeField] GameObject prefabSubject;
+    [SerializeField] int totalApples;
 
-    void OnEnable()
+    void Start()
     {
         subject = GameObject.Find("Subject");
-        if (subject == null)
-        {
-            Instantiate(prefabSubject).GetComponent<SubjectWalker>().StartWalking();
-        }
-        else
+        if (subject != null)
             subject.GetComponent<SubjectWalker>().StartWalking();
+
+        GameMan.instance.InitLevelVals(totalApples);
     }
 }

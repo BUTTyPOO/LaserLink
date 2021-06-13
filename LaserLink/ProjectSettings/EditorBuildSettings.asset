@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Folder/Scenes/LaserMenu/LaserMenu.unity
     guid: 31a38d48be3b9e243a303f7bd96a29f3
   - enabled: 1

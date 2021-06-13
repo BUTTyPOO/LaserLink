@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class SubjectScript : MonoBehaviour
 {
+    static SubjectScript instance;
     [SerializeField] public int lasersAllowed = 2;
     [SerializeField] public int lasersPlaced = 0;
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+        if (instance != null)
+        {
+            Destroy(gameObject);
+        }
+
+        instance = this;
+        DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame

@@ -8,7 +8,7 @@ public class WinningTrigger : MonoBehaviour
     {
         if (col.CompareTag("Player"))
         {
-            GameMan.instance.LevelWon();
+            GameMan.instance.DidIWin();
         }
     }
 }

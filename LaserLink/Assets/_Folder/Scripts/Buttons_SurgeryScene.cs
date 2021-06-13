@@ -17,7 +17,7 @@ public class Buttons_SurgeryScene : MonoBehaviour
     }
     void StartButton() // start button
     {
-        SceneManager.LoadScene("Level1"); // later change to support more levels
+        SceneManager.LoadScene(GameMan.instance.levelIndex); // later change to support more levels
     }
     void ClearButton()
     {

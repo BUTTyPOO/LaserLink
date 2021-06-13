@@ -27,5 +27,6 @@ public class SubjectWalker : MonoBehaviour  // makes subject walk
     void TeleportToPointA()
     {
         transform.position = pointA.position;
+        transform.rotation = pointA.rotation;
     }
 }
