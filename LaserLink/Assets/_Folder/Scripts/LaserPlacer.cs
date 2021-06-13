@@ -7,8 +7,10 @@ using TMPro;
 public class LaserPlacer : MonoBehaviour
 {
     public SubjectScript laserInfo;
-    [SerializeField] bool enabled = true;
     public TMP_Text tmp;
+
+    [SerializeField] Transform laserParent;
+    [SerializeField] bool enabled = true;
     [SerializeField] List<SerializedTransform> serializedTrans = new List<SerializedTransform>();
     [SerializeField] LayerMask layerMask;
     [SerializeField] Camera cam;
@@ -64,9 +66,9 @@ public class LaserPlacer : MonoBehaviour
     }
 
     [Button]
-    void DeleteAllLasers()
+    public void DeleteAllLasers()
     {
-        foreach(Transform tran in subject.transform)
+        foreach(Transform tran in laserParent)
         {
             Destroy(tran.gameObject);
         }
