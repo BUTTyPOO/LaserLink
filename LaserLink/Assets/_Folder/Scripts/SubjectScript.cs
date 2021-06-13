@@ -20,7 +20,8 @@ public class SubjectScript : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    void OnEnable()
+    void Update()
     {
+        lasersAllowed = GameMan.instance.levelIndex + 1;
     }
 }
