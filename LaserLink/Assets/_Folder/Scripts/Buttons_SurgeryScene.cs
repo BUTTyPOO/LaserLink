@@ -9,7 +9,6 @@ public class Buttons_SurgeryScene : MonoBehaviour
     public TMP_Text tmp;
     public SubjectScript laserInfo;
     [SerializeField] GameObject subject;    // the object we are placing lasers on
-
     void Start()
     {
         laserInfo = subject.GetComponent<SubjectScript>();
