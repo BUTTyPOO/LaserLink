@@ -50,6 +50,7 @@ public class LaserPlacer : MonoBehaviour
         {   // Hide laser somewhere off screen when we are no longer hovering over obj
             ghostPlacementIndicator.transform.localPosition = new Vector3(1000, 1000, 1000);
         }
+        tmp.text = (SubjectScript.instance.lasersAllowed - SubjectScript.instance.lasersPlaced).ToString();
     }
 
     void RemoveLaserAtGhostTransform()
