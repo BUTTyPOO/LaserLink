@@ -6,7 +6,6 @@ using TMPro;
 
 public class LaserPlacer : MonoBehaviour
 {
-    public SubjectScript laserInfo;
     public TMP_Text tmp;
 
     [SerializeField] Transform laserParent;
@@ -17,6 +16,7 @@ public class LaserPlacer : MonoBehaviour
     [SerializeField] GameObject ghostPlacementIndicator;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] GameObject subject;    // the object we are placing lasers on
+    [SerializeField] SubjectScript laserInfo;
 
     LaserGhostIndicator ghostLaserScript;
     RaycastHit hitData;
@@ -31,6 +31,7 @@ public class LaserPlacer : MonoBehaviour
 
     void Update()
     {
+        print(laserInfo.lasersPlaced);
         if (!enabled)
             return;
 
@@ -70,7 +71,7 @@ public class LaserPlacer : MonoBehaviour
     void SpawnLaserAtGhostTransform()
     {
         if (ghostLaserScript.isBlocked == true) return;
-        if (laserInfo.lasersAllowed == laserInfo.lasersPlaced) return;
+        if (laserInfo.lasersAllowed <= laserInfo.lasersPlaced) return;
         Vector3 pos = ghostPlacementIndicator.transform.localPosition;
         Quaternion rot = ghostPlacementIndicator.transform.localRotation;
 

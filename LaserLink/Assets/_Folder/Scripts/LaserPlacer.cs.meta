@@ -3,7 +3,14 @@ guid: 571be698ffcc9ab42bf39483a6395da1
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - tmp: {instanceID: 0}
+  - laserParent: {instanceID: 0}
+  - cam: {instanceID: 0}
+  - ghostPlacementIndicator: {instanceID: 0}
+  - laserPrefab: {instanceID: 0}
+  - subject: {instanceID: 0}
+  - laserInfo: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

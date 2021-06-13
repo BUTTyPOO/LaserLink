@@ -2567,7 +2567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 571be698ffcc9ab42bf39483a6395da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserInfo: {fileID: 0}
   tmp: {fileID: 0}
   laserParent: {fileID: 1646875531}
   enabled: 1
@@ -2579,6 +2578,7 @@ MonoBehaviour:
   ghostPlacementIndicator: {fileID: 453302299}
   laserPrefab: {fileID: 4504651257192856726, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
   subject: {fileID: 755110498}
+  laserInfo: {fileID: 0}
 --- !u!1001 &8409985297505954107
 PrefabInstance:
   m_ObjectHideFlags: 0
