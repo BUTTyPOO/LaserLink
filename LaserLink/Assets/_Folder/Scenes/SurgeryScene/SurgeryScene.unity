@@ -1011,6 +1011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 755110499}
   - component: {fileID: 755110500}
+  - component: {fileID: 755110501}
   m_Layer: 6
   m_Name: Subject
   m_TagString: Untagged
@@ -1048,6 +1049,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lasersAllowed: 2
   lasersPlaced: 0
+--- !u!114 &755110501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 755110498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4bc8918180eb84429af530eb83c9752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
 --- !u!1 &824329016
 GameObject:
   m_ObjectHideFlags: 0
