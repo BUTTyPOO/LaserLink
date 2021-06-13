@@ -10,10 +10,9 @@ public class SoundManager : MonoBehaviour
     };
 
     [SerializeField] AudioSource audSrc;
-    [SerializeField] GameAssets gameAsset;
+    
     public void PlaySound()
     {
-        audSrc.clip = gameAsset.soundAudioClipArray[0].audioClip;
         audSrc.Play();
     }
 
