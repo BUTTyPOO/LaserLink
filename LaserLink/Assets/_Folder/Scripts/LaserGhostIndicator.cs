@@ -21,12 +21,12 @@ public class LaserGhostIndicator : MonoBehaviour
         mat = renderr.material;
     }
 
-    void Update()
+    public void Update()
     {
         CheckIfBlocked();
     }
 
-    void MakeRed()
+    public void MakeRed()
     {
         mat.SetColor("_Color", Color.red);
     }
