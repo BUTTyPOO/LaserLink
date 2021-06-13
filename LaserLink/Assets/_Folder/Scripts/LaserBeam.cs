@@ -25,8 +25,7 @@ public class LaserBeam : MonoBehaviour
         if (Physics.Raycast(ray, out hitInfo, 1000, layerMask))
         {
             lineRenderer.SetPosition(1, transform.InverseTransformPoint(hitInfo.point));
-            ILaserable laserable = hitInfo.collider.GetComponent<ILaserable>();
-            if(laserable != null)
+            if (TryGetComponent<ILaserable>(out var laserable))
                 laserable.Lasered();
         }
         else
