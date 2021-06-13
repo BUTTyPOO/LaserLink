@@ -6,10 +6,16 @@ using UnityEngine.SceneManagement;
 public class LevelMan : MonoBehaviour
 {
     GameObject subject;
+    [SerializeField] GameObject prefabSubject;
 
     void OnEnable()
     {
         subject = GameObject.Find("Subject");
-        subject.GetComponent<SubjectWalker>().StartWalking();
+        if (subject == null)
+        {
+            Instantiate(prefabSubject).GetComponent<SubjectWalker>().StartWalking();
+        }
+        else
+            subject.GetComponent<SubjectWalker>().StartWalking();
     }
 }
