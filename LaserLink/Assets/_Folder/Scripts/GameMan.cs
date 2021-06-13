@@ -33,6 +33,9 @@ public class GameMan : MonoBehaviour
 
     public void DidIWin()
     {
+        
+        GameObject.Find("Canvas")?.transform.GetChild(3).gameObject.SetActive(false);
+        SubjectScript.instance.transform.DOComplete();
         if (applesHit == totalApples)
             LevelWon();
         else
