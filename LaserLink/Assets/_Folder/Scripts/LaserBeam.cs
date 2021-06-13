@@ -32,11 +32,5 @@ public class LaserBeam : MonoBehaviour
         {
             lineRenderer.SetPosition(1, new Vector3(0, 0, 100));
         }
-
-
-        // print(rayOrigin);
-        // GameObject abba = GameObject.CreatePrimitive(PrimitiveType.Sphere);
-        // abba.transform.localPosition = rayOrigin;
-        // abba.transform.localScale *= .05f;
     }
 }
