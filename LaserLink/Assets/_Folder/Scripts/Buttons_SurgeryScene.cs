@@ -21,11 +21,7 @@ public class Buttons_SurgeryScene : MonoBehaviour
     }
     void ClearButton()
     {
-        GameObject Subject = GameObject.Find("Subject");
-        foreach(Transform child in Subject.transform)
-        {
-            Destroy(child.gameObject);
-        }
+        GameObject.FindObjectOfType<LaserPlacer>().DeleteAllLasers();
         laserInfo.lasersPlaced = 0;
         tmp.text = laserInfo.lasersAllowed.ToString();
     }
