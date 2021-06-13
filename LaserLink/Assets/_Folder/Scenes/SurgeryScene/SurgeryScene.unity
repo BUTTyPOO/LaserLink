@@ -207,9 +207,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 609639316}
-        m_TargetAssemblyTypeName: Buttons_SurgeryScene, Assembly-CSharp
-        m_MethodName: ClearButton
+      - m_Target: {fileID: 382168791}
+        m_TargetAssemblyTypeName: HelpPanel, Assembly-CSharp
+        m_MethodName: OpenPanel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1049,7 +1049,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &824329017
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2023,6 +2023,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 8417361359673230750, guid: 78b27fc7076461e41abe8fe8f2b57217, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5c9b4788597d96e418773f7e93aa75ef, type: 2}
     - target: {fileID: 8584730617392310598, guid: 78b27fc7076461e41abe8fe8f2b57217, type: 3}
       propertyPath: m_Layer
       value: 6
