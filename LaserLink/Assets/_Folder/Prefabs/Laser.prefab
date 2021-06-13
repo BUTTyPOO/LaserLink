@@ -147,7 +147,7 @@ MonoBehaviour:
   lineRenderer: {fileID: 3189268539329800845}
   layerMask:
     serializedVersion: 2
-    m_Bits: 2147483647
+    m_Bits: 115
 --- !u!65 &6137980206028122190
 BoxCollider:
   m_ObjectHideFlags: 0

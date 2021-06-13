@@ -6,11 +6,7 @@ public class LaserBeam : MonoBehaviour
 {
     [SerializeField] LineRenderer lineRenderer;
     [SerializeField] LayerMask layerMask;
-
-    public void Lasered()
-    {
-        Destroy(gameObject);
-    }
+    
     void Start()
     {
         lineRenderer ??= GetComponent<LineRenderer>();

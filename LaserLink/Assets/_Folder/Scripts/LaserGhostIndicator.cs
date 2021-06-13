@@ -21,11 +21,6 @@ public class LaserGhostIndicator : MonoBehaviour
         mat = renderr.material;
     }
 
-    public void Update()
-    {
-        CheckIfBlocked();
-    }
-
     public void MakeRed()
     {
         mat.SetColor("_Color", Color.red);
@@ -44,19 +39,5 @@ public class LaserGhostIndicator : MonoBehaviour
             MakeGrey();
 
         isBlocked = val;
-    }
-
-    void CheckIfBlocked()
-    {
-        RaycastHit hitInfo;
-        if (Physics.BoxCast(transform.position, Vector3.one, transform.forward, out hitInfo, transform.rotation, 1000, layerMask, QueryTriggerInteraction.Collide))
-        {
-            Destroy(hitInfo.transform.gameObject);
-            MakeRed();
-        }
-        else
-        {
-            MakeGrey();
-        }
     }
 }
