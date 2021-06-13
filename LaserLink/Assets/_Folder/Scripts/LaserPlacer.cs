@@ -60,10 +60,9 @@ public class LaserPlacer : MonoBehaviour
         RaycastHit hitInfo;
         if(Physics.Raycast(ray, out hitInfo))
         {
-            if(hitInfo.collider.gameObject.tag == "laserPrefab")
+            if(hitInfo.collider.tag == "LaserPrefab")
             {
-                GameObject laserFound = GameObject.Find(hitInfo.collider.gameObject.name);
-                Destroy(laserFound);
+                Destroy(hitInfo.collider.transform.parent.gameObject);
                 tmp.text = (laserInfo.lasersAllowed - (--laserInfo.lasersPlaced)).ToString();
             }
         }
