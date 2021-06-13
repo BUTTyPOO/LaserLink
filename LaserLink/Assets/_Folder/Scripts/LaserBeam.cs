@@ -7,6 +7,10 @@ public class LaserBeam : MonoBehaviour
     [SerializeField] LineRenderer lineRenderer;
     [SerializeField] LayerMask layerMask;
 
+    public void Lasered()
+    {
+        Destroy(gameObject);
+    }
     void Start()
     {
         lineRenderer ??= GetComponent<LineRenderer>();
@@ -21,6 +25,9 @@ public class LaserBeam : MonoBehaviour
         if (Physics.Raycast(ray, out hitInfo, 1000, layerMask))
         {
             lineRenderer.SetPosition(1, transform.InverseTransformPoint(hitInfo.point));
+            ILaserable laserable = hitInfo.collider.GetComponent<ILaserable>();
+            if(laserable != null)
+                laserable.Lasered();
         }
         else
         {

@@ -1,4 +1,4 @@
 interface ILaserable
 {
-    void Lasered();
+    public void Lasered();
 }
