@@ -43,6 +43,9 @@ public class LaserPlacer : MonoBehaviour
             if (Input.GetMouseButtonDown(0))
             {
                 SpawnLaserAtGhostTransform();
+            } else if (Input.GetMouseButtonDown(1))
+            {
+                RemoveLaserAtGhostTransform();
             }
         }
         else
@@ -51,6 +54,20 @@ public class LaserPlacer : MonoBehaviour
         }
     }
 
+    void RemoveLaserAtGhostTransform()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hitInfo;
+        if(Physics.Raycast(ray, out hitInfo))
+        {
+            if(hitInfo.collider.gameObject.tag == "laserPrefab")
+            {
+                GameObject laserFound = GameObject.Find(hitInfo.collider.gameObject.name);
+                Destroy(laserFound);
+                tmp.text = (laserInfo.lasersAllowed - (--laserInfo.lasersPlaced)).ToString();
+            }
+        }
+    }
     void SpawnLaserAtGhostTransform()
     {
         if (ghostLaserScript.isBlocked == true) return;
