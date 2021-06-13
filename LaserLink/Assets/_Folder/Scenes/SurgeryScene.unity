@@ -3217,7 +3217,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: af67a7c3308fbbb4c8729c1b754b91e1, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.33
+  m_Volume: 0.487
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3314,7 +3314,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audSrc: {fileID: 2031887974}
-  watermelonSFX: {fileID: 0}
+  watermelonSFX: {fileID: 8300000, guid: 579d4629ce2ad9046a13ffe893a6270a, type: 3}
 --- !u!4 &2031887976
 Transform:
   m_ObjectHideFlags: 0
