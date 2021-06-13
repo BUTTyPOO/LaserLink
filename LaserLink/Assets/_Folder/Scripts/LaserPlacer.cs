@@ -29,7 +29,6 @@ public class LaserPlacer : MonoBehaviour
 
     void Update()
     {
-        print(SubjectScript.instance.lasersPlaced);
         if (!enabled)
             return;
 
