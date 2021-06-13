@@ -11,11 +11,12 @@ public class GameMan : MonoBehaviour
     public int levelIndex = 1; // Build index of next level
     public int MAX_LEVEL = 1; // Build index of next level
 
-    void Start()
+    void Awake()
     {
         if (instance != null)
         {
             Destroy(gameObject);
+            return;
         }
 
         instance = this;
@@ -39,6 +40,7 @@ public class GameMan : MonoBehaviour
         // UI
         // Convete
         // Make Subject Celeberatry
+        GameObject.FindObjectOfType<UI_GameWonPanel>().OpenUI();
         print("Level Won!");
     }
 
