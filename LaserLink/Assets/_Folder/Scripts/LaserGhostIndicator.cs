@@ -26,16 +26,6 @@ public class LaserGhostIndicator : MonoBehaviour
         CheckIfBlocked();
     }
 
-    // void OnTriggerStay(Collider col)
-    // {
-    //     if (col.CompareTag("LaserPrefab"))
-    //     {
-    //         SetIsBlocked(true);
-    //     }
-    //     else
-    //         SetIsBlocked(false);
-    // }
-
     void MakeRed()
     {
         mat.SetColor("_Color", Color.red);

@@ -584,6 +584,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: GhostLaser
       objectReference: {fileID: 0}
+    - target: {fileID: 6358031126478945093, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6358031126478945093, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63ee07c75f176c74e8d4b68180d60a70, type: 2}
+    - target: {fileID: 6358031126478945093, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63ee07c75f176c74e8d4b68180d60a70, type: 2}
+    - target: {fileID: 6358031126478945093, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 63ee07c75f176c74e8d4b68180d60a70, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43846afcbeb1ecf4680735797f019126, type: 3}
 --- !u!1 &705507993
@@ -840,7 +856,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 26.2
   orthographic: 0
   orthographic size: 10
   m_Depth: -1
@@ -1801,10 +1817,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae38245b57f04b744a811c4693f98c60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalSpeed: 40
-  vertSpeed: 40
+  cam: {fileID: 0}
   cameraPivotHorizontal: {fileID: 1810943289}
   cameraPivotVert: {fileID: 832945319}
+  horizontalSpeed: 30
+  vertSpeed: 30
+  zoomSpeed: 2000
 --- !u!4 &2068694198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 78b27fc7076461e41abe8fe8f2b57217, type: 3}

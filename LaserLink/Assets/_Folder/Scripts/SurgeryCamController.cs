@@ -4,10 +4,20 @@ using UnityEngine;
 
 public class SurgeryCamController : MonoBehaviour
 {
-    [SerializeField] float horizontalSpeed = 40f;
-    [SerializeField] float vertSpeed = 40f;
+    [Header("Params")]
+    [SerializeField] Camera cam;
     [SerializeField] Transform cameraPivotHorizontal;
     [SerializeField] Transform cameraPivotVert;
+
+    [Header("Settings")]
+    [SerializeField] float horizontalSpeed = 40f;
+    [SerializeField] float vertSpeed = 40f;
+    [SerializeField] float zoomSpeed = 10f;
+
+    void Start()
+    {
+        cam = Camera.main;
+    }
 
     void Update()
     {
@@ -17,7 +27,10 @@ public class SurgeryCamController : MonoBehaviour
             RotateVertical();
         }
 
-        if (Input.mouseScrollDelta.)
+        float scrollDel = Input.mouseScrollDelta.y * zoomSpeed;
+        float targetFOV = cam.fieldOfView + scrollDel;
+
+        cam.fieldOfView = Mathf.Lerp(cam.fieldOfView, targetFOV, Time.deltaTime * 0.5f);
     }
 
     void RotateHorizontal()
