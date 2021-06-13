@@ -1,0 +1,4 @@
+interface ILaserable
+{
+    void Lasered();
+}
